@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.topbar {
+  border-bottom: solid 1.5px #c4c4c4;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.topbar .logo {
+  display: flex;
+  align-items: center;
+}
+.topbar input {
+  background-color: #FAFAFA;
+  text-align: center;
+  width: 180px;
+  height: 40%;
+  border: solid 1.2px #aaaaaa;
+  border-radius: 5px;
+}
+.topbar .icon {
+  height: 35px;
+  margin-right: 15px;
+}
+.topbar .line {
+  font-size: 25px;
+  font-weight: 150;
+}
+.topbar .logoname {
+  height: 40px;
+  margin-left: 10px;
+}
+.topbar .r-icon {
+  display: flex;
+  justify-content: space-evenly;
+  height: 30px;
+  width: 170px;
+  float: right;
+  font-size: 30px;
+  color: #282828;
+}
+
+.maincontainer {
+  background-color: #FAFAFA;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto auto;
+  max-width: 1024px;
+  padding-top: 30px;
+}
+.maincontainer .aarea, .maincontainer .barea {
+  width: 420px;
+  background-color: #fff;
+}
+
+.atop {
+  height: 70px;
+  display: flex;
+}
+.atop .auser {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
+.atop .auser span {
+  margin-left: 10px;
+  font-weight: 600;
+}
+.atop .aphoto {
+  height: 40px;
+  border-radius: 50%;
+}
+
+.cover {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.abottom {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 20px;
+}
+.abottom .a-icon {
+  display: flex;
+  justify-content: space-evenly;
+  height: 30px;
+  width: 120px;
+  float: right;
+  font-size: 25px;
+  color: #282828;
+}
+.abottom .a-tag {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  font-size: 25px;
+  color: #282828;
+}
+
+.acommend {
+  height: 40px;
+}
+.acommend .like {
+  display: inline-block;
+  padding: auto 20px;
+  padding-left: 30px;
+  font-weight: 900;
+  margin-top: 5px;
+}
+
+.barea {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.barea .buser {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+.barea .buser .bphoto {
+  margin-right: 8px;
+  margin-top: 3px;
+}
+.barea .buser .account {
+  top: 20px;
+}
+.barea .buser .account .name {
+  font-weight: 600;
+  font-size: 14px;
+}
+.barea .buser .account .grayname {
+  color: #595959;
+  font-weight: 400;
+  font-size: 9px;
+  position: relative;
+}
+.barea .buser .bphoto {
+  height: 40px;
+  border-radius: 50%;
+  border: solid 1.2px;
+}
+
+.carea {
+  height: 300px;
+  overflow: scroll;
+}
+.carea .climit {
+  color: #595959;
+  margin-top: 20px;
+  margin-left: 15px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.carea .cuser {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  display: flex;
+  align-items: flex-start;
+}
+.carea .cuser .cphoto {
+  height: 38px;
+  border-radius: 50%;
+  margin-right: 8px;
+  margin-top: 3px;
+  border: solid 1px;
+}
+.carea .cuser .account {
+  top: 20px;
+}
+.carea .cuser .account .name {
+  font-weight: 600;
+  font-size: 14px;
+}
+.carea .cuser .account .grayname {
+  color: #595959;
+  font-weight: 400;
+  font-size: 9px;
+  position: relative;
+}
+
+.babout {
+  margin-top: 15px;
+  color: #595959;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 15px;
+  letter-spacing: 0.7px;
+  line-height: 18px;
+}
